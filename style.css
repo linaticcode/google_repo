@@ -115,7 +115,7 @@ form input[type='submit']{
 
 .btn-cnt .btn{
 	margin-right: 35px;
-	border: 1px solid rgb(11, 10, 10);
+	border: 2px solid rgb(11, 10, 10);
 	padding: 5px;
     animation: slideInfromLeft 1s ease-in;
     
@@ -133,7 +133,7 @@ form input[type='submit']{
    box-sizing: border-box;
    padding: 5px;
    align-items: center;
-   border: 1px solid rgb(11, 10, 10);
+   border: 2px solid rgb(11, 10, 10);
    animation: slideInfromRight 1s ease-in;
    color: black;
 }
@@ -243,9 +243,6 @@ footer>.row ul li{
     }
 }
 
-@media(max-width:768px){
-            
-}
 
 /* Mobile */
 @media(max-width: 440px){
@@ -263,6 +260,11 @@ footer>.row ul li{
     nav ul{
       padding: 10px 0px;
       /* background-color: #fff; */
+    }
+
+    .container .flex{
+        justify-self: center;
+        align-self: center;
     }
     
 }
