@@ -17,7 +17,9 @@ body{
     font-weight: lighter;
 	/* background-color: black; */
 	overflow: hidden;
-    /* background-image: url('images/pexels\ new.jpg'); */
+    background-image: url('images/nntx.jpg');
+    overflow-x:hidden;
+    /* opacity: 0.6; */
 }
 
 .flex{
