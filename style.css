@@ -17,18 +17,17 @@ body{
     font-weight: lighter;
 	/* background-color: black; */
 	overflow: hidden;
-    background-image: url('images/nntx.jpg');
+    background-color:#fff;
     overflow-x:hidden;
     /* opacity: 0.6; */
 }
 
 .flex{
     display: flex;
+    
     /* flex-direction: column; */
     /* justify-content: space-between; */
     align-items: center;
-    height : 100%;
-    flex-wrap: top;
 }
 
 
@@ -64,12 +63,12 @@ nav ul li a:hover{
 
 .container{
     margin: 20px auto;
-    width: 1100px;
+    max-width: 1100px;
     /* display: flex; */
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    height: 70vh;
+    height: 90vh;
 }
 
 .logo-block img{
@@ -78,7 +77,7 @@ nav ul li a:hover{
 
 form .input-block{
     margin: 15px auto;
-    width: 500px;
+    width: 35vw;
     /* display: flex; */
     justify-content: space-around;
     align-items: center;
@@ -187,8 +186,8 @@ footer>.row ul li{
 } */
 .languages{
     display: flex;
-    flex-wrap: nowrap;
-    /* flex-wrap: wrap; */
+    /* flex-wrap: nowrap; */
+    flex-wrap: wrap;
 }
 
 
@@ -252,13 +251,17 @@ footer>.row ul li{
     }
 
     nav{
+        display:flex;
       height: 110px;
       position: absolute;
-      flex-direction: column;
-      justify-content: flex-end;
-}
-    nav ul{
-      padding: 10px 0px;
+      flex-direction: row;
+      justify-content: center;
+    }
+    
+form .input-block{
+    margin: 15px auto;
+    width: 65vw;
+   
       /* background-color: #fff; */
     }
 
@@ -266,6 +269,10 @@ footer>.row ul li{
         justify-self: center;
         align-self: center;
     }
+
+    /* .flex{
+        flex-wrap: nowrap;
+    } */
     
 }
 
